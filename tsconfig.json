@@ -1,5 +1,5 @@
 {
-  "extends": "./config/tsconfig.json",
+  "extends": "./src/config/tsconfig.json",
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es2017",
@@ -10,17 +10,17 @@
     "strictNullChecks": false
   },
   "include": [
-    "index.ts",
-    "app/**/*.ts",
-    "config/**/*.ts",
+    "src/index.ts",
+    "src/app/**/*.ts",
+    "src/config/**/*.ts",
     "mock/**/*.ts",
     "test/**/*.ts"
   ],
   "exclude": [
-    "public",
-    "app/web",
-    "app/public",
-    "app/view",
+    "src/public",
+    "src/app/web",
+    "src/app/public",
+    "src/app/view",
     "node_modules"
   ]
 }
