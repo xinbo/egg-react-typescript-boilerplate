@@ -28,12 +28,7 @@
       "plugins": [
         "react-hot-loader/babel",
         "syntax-dynamic-import",
-        "transform-object-rest-spread",
-        ["import", {
-          "libraryName": "antd",
-          "libraryDirectory": "lib",
-          "style": true
-        }]
+        "transform-object-rest-spread"
       ]
     }
   },

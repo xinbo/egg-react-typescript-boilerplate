@@ -16,6 +16,7 @@
     "./typings/global.d.ts"
   ],
   "include": [
+    "./**/**.tsx",
     "./page/**/**.tsx",
   ],
   "exclude": [
